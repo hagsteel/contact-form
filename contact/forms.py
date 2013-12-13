@@ -1,5 +1,5 @@
 from django import forms
-from ..core import sendmail
+from . import sendmail
 
 
 class ContactForm(forms.Form):
